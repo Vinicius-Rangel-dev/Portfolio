@@ -17,5 +17,8 @@
 ## 🖥️ Demonstração
 ### Acesse aqui:
 
-<a href="https://vinicius-rangel-dev.github.io/Portfolio/#contato"></a>
-Acesse meu Portfólio clicando <a href="https://vinicius-rangel-dev.github.io/Portfolio/#contato">aqui.</a>
+<a href="https://vinicius-rangel-dev.github.io/Portfolio/" target="_blank"><img src="https://github.com/Vinicius-Rangel-dev/Portfolio/blob/a21b26cb8a86d0840b6729cd9272e44758d217fe/cover.png"></a>
+Acesse o Bikcraft clicando <a href="https://vinicius-rangel-dev.github.io/Portfolio/">aqui.</a>
+
+<a href="https://vinicius-rangel-dev.github.io/Portfolio/" target="_blank"></a>
+Acesse meu Portfólio clicando <a href="https://vinicius-rangel-dev.github.io/Portfolio/">aqui.</a>
