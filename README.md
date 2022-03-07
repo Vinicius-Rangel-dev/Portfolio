@@ -17,5 +17,5 @@
 ## 🖥️ Demonstração
 ### Acesse aqui:
 
-<a href="https://bikcraft-vinicius.netlify.app"><img src="https://github.com/Vinicius-Rangel-dev/Portfolio/blob/ffb4cc148af2689696263ee06561efb78409f595/cover.png"></a>
+<a href="https://vinicius-rangel-dev.github.io/Portfolio/#contato"></a>
 Acesse meu Portfólio clicando <a href="./">aqui.</a>
