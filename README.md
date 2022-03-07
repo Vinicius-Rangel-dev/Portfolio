@@ -19,4 +19,4 @@
 ### Acesse aqui:
 
 <a href="https://bikcraft-vinicius.netlify.app"><img src="https://github.com/Vinicius-Rangel-dev/Portfolio/blob/ffb4cc148af2689696263ee06561efb78409f595/cover.png"></a>
-Acesse o Bikcraft clicando <a href="https://bikcraft-vinicius.netlify.app">aqui.</a>
+Acesse meu Portfólio clicando <a href="./">aqui.</a>
