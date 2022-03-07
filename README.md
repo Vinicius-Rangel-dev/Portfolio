@@ -18,4 +18,4 @@
 ### Acesse aqui:
 
 <a href="https://vinicius-rangel-dev.github.io/Portfolio/#contato"></a>
-Acesse meu Portfólio clicando <a href="./">aqui.</a>
+Acesse meu Portfólio clicando <a href="https://vinicius-rangel-dev.github.io/Portfolio/#contato">aqui.</a>
