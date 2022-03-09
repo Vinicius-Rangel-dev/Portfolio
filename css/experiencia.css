@@ -1,0 +1,55 @@
+/* EXPERIÊNCIA */
+.experiencia {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;  
+  justify-self: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.titulo-grande {
+  font-family: 'Playfair Display', serif;
+  font-size: 9rem;
+  word-break: break-all;
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+  color: #CED3D9;
+}
+
+.experiencia p{
+  color: #363B47;
+  font-size: 1.5rem;
+  line-height: 1.33;
+}
+
+@media (max-width: 900px) {
+
+  .titulo-grande{
+    font-size: 6rem;
+  }
+
+  .experiencia p{
+    font-size: 1.2rem;
+    line-height: 1.33;
+  }
+}
+
+@media (max-width: 600px) {
+  .experiencia{
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .titulo-grande{
+    font-size: 3rem;
+  }
+
+  .experiencia p{
+    font-size: 0.9rem;
+    line-height: 1.33;
+  }
+}

@@ -1,0 +1,151 @@
+/* FORMACAO */
+
+.formacao {
+  position: relative;
+  display: grid;
+  background-color: #181A23;
+  width: 100%;
+  margin: 0 auto;
+  height: 900px;  
+}
+
+.formacao-container {
+  margin-top: 100px;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1200px;
+  justify-self: center;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
+.formacao-descricao {
+  display: grid;
+  gap: 60px;
+}
+
+.formacao-titulo {
+  color: #000;  
+  font-family: 'Playfair Display', serif;
+}
+
+.resumo {
+  color: #989EA6;
+  font-size: 1.5rem;
+  line-height: 1.33;
+}
+
+.graduacao {
+  display: grid;
+  gap: 10px;
+  background-color: #000;
+  border-radius: 5px;
+  color: #F5F7FA;
+  width: max-content;
+}
+.graduacao div {
+  padding: 20px;
+}
+.graduacao p{
+  font-size: 1rem;
+  padding: 10px;
+  color: #A3A3A3;
+}
+
+.graduacao span {
+  font-size: 1.5rem;
+  padding: 10px 10px;
+}
+
+.graduacao span::before{
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 20px;
+  right: 773px;
+  background: linear-gradient(180deg, #7ADFFF 0%, #1CACDA 100%);
+}
+
+.cursos {
+  display: grid;
+  color: #F5F7FA;
+  gap: 20px;
+}
+
+.cursos img {
+  position: absolute;
+  left: 355px;
+  top: 347px;
+}
+
+.cursos h4{
+  color: #8F8F8F;
+}
+
+.cursos li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.idioma {
+  display: grid;
+  color: #F5F7FA;
+  gap: 20px;
+}
+
+.idioma img {
+  position: absolute;
+  left: 355px;
+  top: 835px;
+}
+
+.idioma h4{
+  color: #8F8F8F;
+}
+
+.idioma li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.detalhe {
+  position: absolute;
+  top: 930px;
+  left: -2px;
+  z-index: 9;
+}
+
+@media (max-width: 800px) {
+  .formacao-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+  }
+  .formacao-titulo{
+    font-size: 5rem;
+    color: #F5F7FA;
+  }
+  .graduacao {
+    justify-self: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .formacao-titulo{
+    font-size: 3rem;
+  }
+
+  .formacao-container p {
+    font-size: 1.2rem;
+  }
+  .graduacao{
+    width: inherit;
+  }
+
+  .graduacao span{
+    font-size: 1.3rem;
+  }
+}
