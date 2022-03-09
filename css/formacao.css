@@ -6,7 +6,7 @@
   background-color: #181A23;
   width: 100%;
   margin: 0 auto;
-  height: 900px;  
+  height: 1100px;  
 }
 
 .formacao-container {
@@ -63,7 +63,7 @@
   position: absolute;
   width: 5px;
   height: 20px;
-  right: 773px;
+  right: 820px;
   background: linear-gradient(180deg, #7ADFFF 0%, #1CACDA 100%);
 }
 
@@ -75,8 +75,8 @@
 
 .cursos img {
   position: absolute;
-  left: 355px;
-  top: 347px;
+  left: 390px;
+  top: 445px;
 }
 
 .cursos h4{
@@ -97,8 +97,8 @@
 
 .idioma img {
   position: absolute;
-  left: 355px;
-  top: 835px;
+  left: 390px;
+  top: 935px;
 }
 
 .idioma h4{
@@ -113,7 +113,7 @@
 
 .detalhe {
   position: absolute;
-  top: 930px;
+  top: 1030px;
   left: -2px;
   z-index: 9;
 }
@@ -147,5 +147,8 @@
 
   .graduacao span{
     font-size: 1.3rem;
+  }
+  .detalhe {
+    display: none;
   }
 }

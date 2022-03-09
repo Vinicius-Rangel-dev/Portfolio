@@ -31,8 +31,8 @@ main {
 .intro-descricao img{
   position: absolute;
   z-index: -9;
-  top: 50px;
-  right: 470px;
+  top: 65px;
+  right: 440px;
 }
 
 .intro-descricao h1{
