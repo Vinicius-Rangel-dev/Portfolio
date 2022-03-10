@@ -7,10 +7,10 @@
   width: 100%;
   margin: 0 auto;
   height: 1100px;
+  margin-top: 160px;
 }
 
 .formacao-container {
-  margin-top: 100px;
   position: absolute;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -136,6 +136,14 @@
   .graduacao {
     justify-self: center;
   }
+
+  .graduacao span {
+
+  }
+
+  .cursos li {
+    padding: 5px 0;
+  }
 }
 
 @media (max-width: 600px) {
@@ -150,8 +158,12 @@
     width: inherit;
   }
 
+  .graduacao p {
+    font-size: 0.95rem;
+  }
+
   .graduacao span {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .detalhe {
     display: none;
