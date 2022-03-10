@@ -7,7 +7,7 @@
   margin: 0 auto;
   justify-self: center;
   gap: 40px;  
-  padding: 100px 20px;
+  padding: 100px 20px 0 20px;
 }
 
 .projetos-item {
@@ -83,6 +83,9 @@ margin: 5px 5px;
 }
 
 @media (max-width: 1000px) {
+  .projetos{
+    padding-top: 160px;
+  }
 
   .projetos-item {
     grid-template-columns: 1fr 1fr;

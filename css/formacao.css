@@ -124,6 +124,7 @@
     height: 1200px;
   }
   .formacao-container {
+    padding-top: 160px;
     grid-template-columns: 1fr;
     gap: 20px;
     justify-items: center;

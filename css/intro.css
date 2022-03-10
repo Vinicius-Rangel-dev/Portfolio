@@ -2,7 +2,7 @@
 main {
   position: relative;
   display: grid;
-  padding: 100px 20px;
+  padding: 100px 20px 0 20px;
 }
 
 .intro {
