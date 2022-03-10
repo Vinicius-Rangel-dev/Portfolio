@@ -24,7 +24,6 @@ footer {
   color: #ccc;
   font-size: 1.5rem;
   line-height: 1.33;
-  width: 430px;
 }
 
 .footer-container .email{
@@ -65,5 +64,14 @@ footer {
 
   .idioma img {
     display: none;
+  }
+
+  .footer-container p {
+    font-size: .8rem;
+    line-height: 1.33;
+  }
+
+  .footer-container .email{
+    font-size: 1.5rem;
   }
 }
