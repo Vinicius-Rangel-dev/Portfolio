@@ -54,24 +54,13 @@ footer {
 }
 
 @media (max-width:600px){
-  .footer-container p{
-    font-size: 0.9rem;
-  }
-
-  .cursos img {
-    display: none;
-  }
-
-  .idioma img {
-    display: none;
-  }
 
   .footer-container p {
-    font-size: .8rem;
+    font-size: 1rem;
     line-height: 1.33;
   }
 
   .footer-container .email{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }

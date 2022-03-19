@@ -49,6 +49,7 @@ border: 2px solid #CED3D9;
 .projetos-item-desc h3 {  
   padding-top: 10px;
   font-size: 1.5rem;
+  position: relative;
 }
 
 .projetos-item-desc p {
@@ -60,10 +61,11 @@ border: 2px solid #CED3D9;
 
 .projetos-item-desc h3::before {
   content: '';
+  display: block;
   position: absolute;
   width: 5px;
   height: 20px;
-  left: 430px;
+  left: -18px;
   background: linear-gradient(180deg, #7ADFFF 0%, #1CACDA 100%);
 } 
 
@@ -102,9 +104,6 @@ margin: 5px 5px;
     font-size: 0.9rem;
   }
 
-  .projetos-item-desc h3::before{
-    display: none;
-  }
   .projeto-item-skill {
     display: none;
   }

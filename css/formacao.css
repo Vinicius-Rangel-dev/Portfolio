@@ -54,6 +54,7 @@
 }
 
 .graduacao span {
+  position: relative;
   font-size: 1.5rem;
   padding: 10px 10px;
 }
@@ -63,7 +64,7 @@
   position: absolute;
   width: 5px;
   height: 20px;
-  right: 820px;
+  left: -24px;
   background: linear-gradient(180deg, #7adfff 0%, #1cacda 100%);
 }
 
@@ -73,14 +74,22 @@
   gap: 20px;
 }
 
-.cursos img {
-  position: absolute;
-  left: 390px;
-  top: 445px;
-}
+
 
 .cursos h4 {
   color: #8f8f8f;
+  position: relative;
+}
+
+.cursos h4::before{
+  position: absolute;
+  content: "";
+  background: url(/img/cursos.svg) no-repeat center;
+  display: block;
+  width: 24px;
+  height: 24px;
+  left: -30px;
+  top: -5px;
 }
 
 .cursos li {
@@ -95,14 +104,20 @@
   gap: 20px;
 }
 
-.idioma img {
-  position: absolute;
-  left: 390px;
-  top: 935px;
-}
-
 .idioma h4 {
   color: #8f8f8f;
+  position: relative;
+}
+
+.idioma h4::before{
+  position: absolute;
+  content: "";
+  background: url(/img/idiomas.svg) no-repeat center;
+  display: block;
+  width: 24px;
+  height: 24px;
+  left: -30px;
+  top: -5px;
 }
 
 .idioma li {
@@ -119,10 +134,18 @@
   margin-bottom: 1000px;
 }
 
-@media (max-width: 900px) {
-  .formacao {
-    height: 1200px;
-  }
+.formacao::after{
+  content: "";
+  display: block;
+  position: absolute;
+  background: url(/img/detalhe.svg) no-repeat center;
+  width: 140px;
+  height: 140px;
+  top: 1035px;
+  z-index: 9;
+}
+
+@media (max-width: 1000px) {
   .formacao-container {
     padding-top: 160px;
     grid-template-columns: 1fr;
@@ -136,27 +159,21 @@
   .graduacao {
     justify-self: center;
   }
-  .graduacao span::before {
-    display: none;
-  }
 
-  .cursos img {
-    display: none;
-  }
-
-  .idioma img {
-    display: none;
+  .cursos {
+    padding-left: 20px;
   }
 
   .cursos li {
     padding: 5px 0;
   }
-  .detalhe {
-    display: none;
+
+  .idioma {
+    padding-left: 20px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .formacao-titulo {
     font-size: 3rem;
   }
@@ -169,13 +186,10 @@
   }
 
   .graduacao p {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
   }
 
   .graduacao span {
-    font-size: 1.2rem;
-  }
-  .detalhe {
-    display: none;
+    font-size: .9rem;
   }
 }

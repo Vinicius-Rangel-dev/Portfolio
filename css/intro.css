@@ -28,25 +28,31 @@ main {
   min-width: 536px;
 }
 
-.intro-descricao img{
-  position: absolute;
-  z-index: -9;
-  top: 65px;
-  right: 440px;
-}
-
 .intro-descricao h1{
+  position: relative;
   font-family: 'Playfair Display', serif;
   font-size: 4.5rem;  
   line-height: 92px;
   margin: 0px;
 }
 
+.intro-descricao h1::before{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 140px;
+  height: 130px;
+  background: url(/img/detalhe.svg) no-repeat center;
+  z-index: -1;
+  top: -15px;
+  left: -42px;
+}
+
 .intro-descricao p{
   font-size: 1.5rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .intro {
     grid-template-columns: 1fr;
     justify-items: center;
@@ -60,9 +66,8 @@ main {
     min-width: 0;
   }
 
-  .intro-descricao img {
-    top: 540px;
-    right: 410px;
+  .intro-descricao h1::before {
+    left: -28px;
   }
 
   .intro-descricao p {
@@ -93,5 +98,11 @@ main {
 
   .intro-perfil img {
     width: 200px;
+  }
+
+  .intro-descricao h1::before {
+    width: 70px;
+    height: 20px;
+    left: 10px;
   }
 }
